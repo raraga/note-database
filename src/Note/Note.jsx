@@ -13,12 +13,12 @@ class Note extends Component {
       <div className="note fade-in">
         <p className="noteContent">{ this.noteContent }</p>
       </div>
-    )
+    );
   }
 }
 
 Note.propTypes = {
   noteContent: PropTypes.string
-}
+};
 
 export default Note;
