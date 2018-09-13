@@ -39,7 +39,7 @@ class Noteform extends Component {
           onChange={this.handleUserInput}
         />
         <button className="noteButton"
-          onClick={this.writeNote }
+          onClick={this.writeNote}
                 
         >Add Note</button>
       </div>
